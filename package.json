@@ -1,0 +1,13 @@
+{
+  "name": "learncobol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clg": "zowe zos-jobs submit data-set \"Z74739.JCL(HELLO)\" -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
